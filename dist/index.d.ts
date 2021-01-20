@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { Duplex } from 'stream';
 import { Runtime } from 'webextension-polyfill-ts';
-export default class PortDuplexStream extends Duplex {
+export declare class PortDuplexStream extends Duplex {
     private _port;
     /**
      * @param port - An instance of WebExtensions Runtime.Port. See:

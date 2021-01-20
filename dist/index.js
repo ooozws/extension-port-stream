@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PortDuplexStream = void 0;
 const stream_1 = require("stream");
 class PortDuplexStream extends stream_1.Duplex {
     /**
@@ -65,6 +66,6 @@ class PortDuplexStream extends stream_1.Duplex {
         return cb();
     }
 }
-exports.default = PortDuplexStream;
+exports.PortDuplexStream = PortDuplexStream;
 ;
 //# sourceMappingURL=index.js.map
